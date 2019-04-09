@@ -1,0 +1,10 @@
+{
+    "attributes": {
+        "letter": 2,
+        "indent": 1,
+        "separator": ""
+    },
+    "operations": {
+        "letter": 4
+    }
+}

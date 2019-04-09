@@ -1,0 +1,19 @@
+require 'models/page_objects/modules/shared/global_frame_set'
+require 'models/page_objects/pages/_base'
+
+
+class {{title}} < AthenaNetPage
+  include GlobalFrameSet
+
+
+  # Model HTML elements on the page
+
+
+  	{{#list locators}}
+  	{{class}}(:{{{name}}},{{{locator}}},frame:myframe )
+  	{{/list}}
+  end
+
+end
+
+
